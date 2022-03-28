@@ -3,6 +3,9 @@ function NavBar(props) {
 
   const link = [
     { name: "Google", link: "https://google.com" },
+    { name: "Google", link: "https://google.com" },
+    { name: "Google", link: "https://google.com" },
+    { name: "Google", link: "https://google.com" },
     { name: "Bing", link: "https://bing.com" },
   ];
 
@@ -19,7 +22,7 @@ function NavBar(props) {
   ));
 
   return (
-    <ul >
+    <ul className="NavBar">
       {linkList}
     </ul>
   );
